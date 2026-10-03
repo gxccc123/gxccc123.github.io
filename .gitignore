@@ -1,0 +1,8 @@
+.DS_Store
+.env*
+__pycache__/
+output/
+.playwright-cli/
+node_modules/
+*.tar.gz
+*.zip

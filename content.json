@@ -1,0 +1,221 @@
+{
+  "name": "Xicheng Gong",
+  "github": "https://github.com/gxccc123",
+  "site_url": "https://gxccc123.github.io/",
+  "contact": {
+    "gmail": "gongxicheng4@gmail.com",
+    "academic": "gongxicheng@stu.pku.edu.cn"
+  },
+  "publications": [
+    {
+      "id": "dexeyegrasp",
+      "short": "DexEyeGrasp",
+      "year": "2026",
+      "venue": "ICRA 2027 · Submitted",
+      "venue_zh": "ICRA 2027 · 已投稿",
+      "title": "DexEyeGrasp: Learning Dexterous Grasping in Clutter with FingerEye Observations",
+      "authors": "",
+      "show_authors": false,
+      "role_en": "Co-first Author",
+      "role_zh": "共同第一作者",
+      "en": "Dexterous grasping in dense clutter using fingertip-camera observations, teacher–student learning, self-supervised geometric prediction, and residual visual adaptation for sim-to-real transfer.",
+      "zh": "利用指尖相机观测、教师–学生学习、自监督几何预测与残差视觉适配，实现密集杂乱场景中的灵巧抓取与仿真到现实迁移。",
+      "links": [
+        [
+          "PDF",
+          "assets/papers/DexEyeGrasp.pdf"
+        ]
+      ],
+      "figure": "assets/papers/dexeyegrasp.png",
+      "figure_source": "assets/papers/DexEyeGrasp.pdf#page=1",
+      "figure_page": "assets/papers/DexEyeGrasp.pdf#page=1",
+      "figure_alt": "FingerEye cameras guide target search and dexterous grasping in dense clutter",
+      "figure_width": 1512,
+      "figure_height": 312,
+      "figure_number": 1,
+      "figure_kind": "teaser"
+    },
+    {
+      "id": "jade",
+      "short": "JADE",
+      "year": "2026",
+      "venue": "ICLR 2027 · Under review",
+      "venue_zh": "ICLR 2027 · 在审",
+      "title": "Vision-Language Models Are Joint Denoisers in Robotic Action Generation",
+      "authors": "",
+      "en": "JADE brings the vision-language model into the action denoising loop, using noisy action latents, gated cross-attention, and clean-latent supervision to jointly refine robot actions.",
+      "zh": "JADE 将视觉语言模型引入动作去噪循环，通过带噪动作潜变量、门控交叉注意力与干净潜变量监督，联合细化机器人动作。",
+      "links": [
+        [
+          "PDF",
+          "assets/papers/JADE.pdf"
+        ]
+      ],
+      "figure": "assets/papers/jade.png",
+      "figure_source": "assets/papers/JADE.pdf#page=4",
+      "figure_page": "assets/papers/JADE.pdf#page=4",
+      "figure_alt": "JADE architecture: noisy-action latents enter the vision-language model and guide the action expert through gated cross-attention",
+      "figure_width": 1600,
+      "figure_height": 544,
+      "figure_number": 2,
+      "figure_kind": "method overview"
+    },
+    {
+      "id": "uniwam",
+      "short": "UniWAM",
+      "year": "2026",
+      "venue": "arXiv 2026 · Preprint",
+      "venue_zh": "arXiv 2026 · 预印本",
+      "title": "UniWAM: Unified World-Action Model",
+      "authors": "Jiayi Chen, Wenxuan Song, Jingbo Wang, Shuai Zhou, Xicheng Gong, Zehua Fan, Ziyang Zhou, Junwu E, Haodong Yan, Fuhao Li, Qize Yu, Xu Huang, Pengwei Wang, Wen Chen, Shunbo Zhou, Haoang Li",
+      "role_en": "Core Contributor",
+      "role_zh": "Core Contributor（核心贡献者）",
+      "en": "A unified world-action model combining physical reasoning, future visual generation, and action prediction through a tri-modal architecture.",
+      "zh": "通过三模态架构统一物理推理、未来视觉生成与动作预测的世界动作模型。",
+      "links": [
+        [
+          "Paper",
+          "https://arxiv.org/abs/2610.02054"
+        ],
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2610.02054"
+        ],
+        [
+          "Project",
+          "https://uniwam.github.io/"
+        ],
+        [
+          "Code",
+          "https://github.com/UniWAM/UniWAM"
+        ]
+      ],
+      "figure": "assets/papers/uniwam.png",
+      "figure_source": "https://uniwam.github.io/assets/model.png",
+      "figure_page": "https://uniwam.github.io/",
+      "figure_alt": "UniWAM architecture with a physical reasoner, world generator, and action predictor",
+      "figure_width": 2200,
+      "figure_height": 1105,
+      "show_authors": false
+    },
+    {
+      "id": "rotvla",
+      "short": "RotVLA",
+      "year": "2026",
+      "venue": "NeurIPS 2026 · Accepted",
+      "venue_zh": "NeurIPS 2026 · 已录用",
+      "title": "RotVLA: Rotational Latent Action for Vision-Language-Action Model",
+      "authors": "Qiwei Li, Xicheng Gong, Xinghang Li, Peiyan Li, Quanyun Zhou, Hangjun Ye, Jiahuan Zhou, Yadong Mu",
+      "en": "Continuous rotational latent actions in SO(n) for compositional action representations and robotic manipulation.",
+      "zh": "利用 SO(n) 中的连续旋转潜在动作，研究动作可组合性与机器人操作。",
+      "links": [
+        [
+          "Paper",
+          "https://arxiv.org/abs/2605.13403"
+        ],
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2605.13403"
+        ],
+        [
+          "Project",
+          "https://qiweili00.github.io/rotvla-page/"
+        ],
+        [
+          "Code",
+          "https://github.com/qiweili00/RotVLA"
+        ]
+      ],
+      "figure": "assets/papers/rotvla.png",
+      "figure_source": "https://qiweili00.github.io/rotvla-page/assets/pipeline.png",
+      "figure_page": "https://qiweili00.github.io/rotvla-page/",
+      "figure_alt": "RotVLA overview: rotational latent actions, pretraining, and robot control",
+      "figure_width": 2628,
+      "figure_height": 1484
+    },
+    {
+      "id": "eqa",
+      "short": "EQA-Decision",
+      "year": "2026",
+      "venue": "CVPR 2026",
+      "title": "Extending Embodied Question Answering from Perception to Decision",
+      "authors": "Xicheng Gong, Qiwei Li, Peiran Xu, Yadong Mu",
+      "en": "A large-scale embodied question-answering dataset and benchmark for perception, reasoning, and decision-making in dynamic environments.",
+      "zh": "面向动态具身环境的大规模问答数据集与评测基准，覆盖感知、推理与决策能力。",
+      "links": [
+        [
+          "Paper",
+          "https://arxiv.org/abs/2605.25813"
+        ],
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2605.25813"
+        ]
+      ],
+      "figure": "assets/papers/eqa.png",
+      "figure_source": "https://arxiv.org/html/2605.25813v1/intro_new.png",
+      "figure_page": "https://arxiv.org/abs/2605.25813",
+      "figure_alt": "EQA-Decision examples spanning perception, reasoning, and decision-making",
+      "figure_width": 1544,
+      "figure_height": 1042
+    },
+    {
+      "id": "replan",
+      "short": "RePlan-Bot",
+      "year": "2026",
+      "venue": "CVPR 2026 Workshop · GRAIL-V",
+      "title": "RePlan-Bot: Multi-Level Replanning for Embodied Instruction Following",
+      "authors": "Xicheng Gong, Guozheng Sun, Peiran Xu, Yadong Mu",
+      "en": "Multi-level replanning for embodied instruction following through online goal adjustment, structured exploration, and action correction.",
+      "zh": "通过在线目标调整、结构化探索与动作修正，实现具身指令跟随中的多层次重规划。",
+      "links": [
+        [
+          "Paper",
+          "https://arxiv.org/abs/2605.25851"
+        ],
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2605.25851"
+        ]
+      ],
+      "figure": "assets/papers/replan.png",
+      "figure_source": "https://arxiv.org/html/2605.25851v1/introduction.png",
+      "figure_page": "https://arxiv.org/abs/2605.25851",
+      "figure_alt": "RePlan-Bot overview of high-level planning, object reasoning, and low-level control",
+      "figure_width": 2045,
+      "figure_height": 1756
+    },
+    {
+      "id": "navq",
+      "short": "NavQ",
+      "year": "2025",
+      "venue": "ICCV 2025",
+      "title": "NavQ: Learning a Q-Model for Foresighted Vision-and-Language Navigation",
+      "authors": "Peiran Xu, Xicheng Gong, Yadong Mu",
+      "en": "A Q-model for vision-and-language navigation that captures long-horizon future semantics to support goal-oriented decisions.",
+      "zh": "面向视觉语言导航的 Q 模型，通过捕捉长时序未来语义，支持目标导向的决策。",
+      "links": [
+        [
+          "Paper",
+          "https://arxiv.org/abs/2510.16457"
+        ],
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2510.16457"
+        ],
+        [
+          "Code",
+          "https://github.com/woyut/NavQ_ICCV25"
+        ]
+      ],
+      "figure": "assets/papers/navq.png",
+      "figure_source": "https://arxiv.org/html/2510.16457v1/motivation-CRnew.png",
+      "figure_page": "https://arxiv.org/abs/2510.16457",
+      "figure_alt": "NavQ navigation decisions and comparison with next-observation prediction",
+      "figure_width": 2048,
+      "figure_height": 697
+    }
+  ],
+  "manuscripts": [],
+  "awards": []
+}
