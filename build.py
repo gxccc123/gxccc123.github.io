@@ -75,7 +75,7 @@ template = '''<!DOCTYPE html>
   </header>
   <main id="main">
     <section class="hero" id="about" aria-labelledby="name">
-      <div class="identity"><h1 id="name" data-en="@@name_en@@" data-zh="@@name_zh@@">@@name_en@@</h1><p class="role">@@pku@@ · @@role@@</p>
+      <div class="identity"><div class="name-line"><h1 id="name" data-en="@@name_en@@" data-zh="@@name_zh@@">@@name_en@@</h1><span class="name-zh" data-language="en" lang="zh-CN">@@name_zh@@</span></div><p class="role">@@pku@@ · @@role@@</p>
       <div class="identity-links">@@identity_links@@<a href="https://github.com/gxccc123" target="_blank" rel="noopener noreferrer">GitHub</a></div></div>
       <div class="intro">
         <div data-language="en" lang="en">
