@@ -75,7 +75,7 @@ template = '''<!DOCTYPE html>
   </header>
   <main id="main">
     <section class="hero" id="about" aria-labelledby="name">
-      <div class="identity"><h1 id="name">Xicheng Gong</h1><p class="role">@@pku@@ · @@role@@</p>
+      <div class="identity"><h1 id="name" data-en="@@name_en@@" data-zh="@@name_zh@@">@@name_en@@</h1><p class="role">@@pku@@ · @@role@@</p>
       <div class="identity-links">@@identity_links@@<a href="https://github.com/gxccc123" target="_blank" rel="noopener noreferrer">GitHub</a></div></div>
       <div class="intro">
         <div data-language="en" lang="en">
@@ -96,7 +96,7 @@ template = '''<!DOCTYPE html>
     </div></section>
     <section class="section contact" id="contact" aria-labelledby="contact-heading"><div><h2 id="contact-heading">@@contact_nav@@</h2><p>@@contact_desc@@</p></div><div class="contact-details">@@contact_links@@<a href="https://github.com/gxccc123" target="_blank" rel="noopener noreferrer">GitHub · gxccc123</a></div></section>
   </main>
-  <footer><span>© 2026 Xicheng Gong</span><span>@@footer@@</span><a href="#about">@@backtop@@</a></footer>
+  <footer><span data-en="© 2026 @@name_en@@" data-zh="© 2026 @@name_zh@@">© 2026 @@name_en@@</span><span>@@footer@@</span><a href="#about">@@backtop@@</a></footer>
 </div>
 </body></html>'''
 copy = {
@@ -115,6 +115,8 @@ copy = {
 }
 for key,(en,zh) in copy.items(): template=template.replace('@@'+key+'@@',tr(en,zh))
 for key,value in [('papers',''.join(papers)),('manuscripts',''.join(manuscripts)),('awards',awards),('contact_links',''.join(contact_links)),('identity_links',''.join(identity_links)),('site_url',esc(data['site_url'], quote=True))]: template=template.replace('@@'+key+'@@',value)
+for key in ['name_en', 'name_zh']:
+    template = template.replace('@@' + key + '@@', esc(data['name' if key == 'name_en' else 'name_zh'], quote=True))
 assert '@@' not in template
 (dist/'index.html').write_text(template)
 print(json.dumps({'pages':1,'publications':len(data['publications']),'manuscripts':len(data['manuscripts']),'awards':len(data['awards'])}))

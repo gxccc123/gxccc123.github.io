@@ -13,7 +13,7 @@
     });
     languageButton.textContent = next === 'zh' ? 'EN' : '中文';
     languageButton.setAttribute('aria-label', next === 'zh' ? 'Switch to English' : '切换为中文');
-    document.title = next === 'zh' ? 'Xicheng Gong | 具身智能研究' : 'Xicheng Gong | Embodied Intelligence';
+    document.title = document.getElementById('name').textContent + (next === 'zh' ? ' | 具身智能研究' : ' | Embodied Intelligence');
     try { localStorage.setItem('homepage-language', next); } catch (_) {}
   };
   languageButton.addEventListener('click', () => setLanguage(language === 'en' ? 'zh' : 'en'));
